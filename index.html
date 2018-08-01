@@ -1,0 +1,50 @@
+---
+layout: default
+title: PPP Makers
+---
+
+<article class="post post-articles">
+  <header class="post-header clearfix">
+    <div class="post-head-wrap">
+        <p><strong>What?</strong><br> On this website I showcast makers that account for <strong>Purchasing Power Parity</strong> based on location. Not every person looking to grow, lives in a country with great <a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp" rel="noopener" target="_blank">global purchasing power</a>. </p>
+        <p><strong>Why?</strong><br>The makers featured on this page get this and make their products more affordable based on the location the user is from.</p>
+        <p><strong>How?</strong><br>Want to be featured here? Send me a tweet/DM on my Twitter <a href="https://twitter.com/NechitaGabriel" title="My Twitter">(@NechitaGabriel)</a> with your thing and a description, and I'll take a look
+          .</p>
+    </div>
+  </header>
+
+  <!-- Tags -->
+  <ul class="filter" id="makers">
+    <li class="active">
+      <a href="#" class="all">All
+        <span class="number">({{site.products | size}})</span>
+      </a>
+    </li>
+    {% for tag in site.data.tags %}
+    <li>
+      <a href="#" class="{{tag.tag}}">{{tag.name}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <div class="post-content holder">
+
+    {%- assign products = site.products | sort: 'date' | reverse %} {%- for product in products %}
+    <!-- Block -->
+    <a class="block block-ds{% for item in product.tags %} {{ item }}{% endfor %}" href="{{ product.link }}" title="{{ product.title }}"
+      target="_blank">
+      <div class="img-wrap">
+          <img src="{{ site.baseurl }}/images/loader-ds.gif" data-echo="{{ site.baseurl }}/images/makers/{{ product.image }}" alt="{{ product.title }}" width="800" height="400" />
+        </div>
+      <div class="content">
+
+        <h3>{{ product.author }}</h3>
+        <h2>{{ product.title }}</h2>
+        <p class="clamp">{{ product.description }}</p>
+        <span class="date">{{ product.date | date: '%B %d, %Y' }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+</article>

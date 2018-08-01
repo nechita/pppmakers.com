@@ -1,0 +1,24 @@
+[{
+    "tag": "courses",
+    "name": "Courses"
+},
+{
+    "tag": "javascript",
+    "name": "JavaScript"
+},
+{
+    "tag": "typescript",
+    "name": "TypeScript"
+},
+{
+    "tag": "node",
+    "name": "Node"
+},
+{
+    "tag": "react",
+    "name": "React"
+},
+{
+    "tag": "angular",
+    "name": "Angular"
+}]

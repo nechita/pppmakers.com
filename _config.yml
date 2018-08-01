@@ -1,0 +1,20 @@
+title: PPP Makers
+email: nechita.gabriel@gmail.com
+description: List of Makers that make their products more affordable taking into account Purchasing Power Parity
+baseurl: ""
+url: "https://pppmakers.com/"
+twitter_username: NechitaGabriel
+github_username:  nechita
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+
+permalink: pretty
+
+collections:
+  products:
+    output: true
