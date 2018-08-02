@@ -2,7 +2,6 @@
 layout: default
 title: PPP Makers
 ---
-
 <article class="post post-articles">
   <header class="post-header clearfix">
     <div class="post-head-wrap">
@@ -12,21 +11,9 @@ title: PPP Makers
           .</p>
     </div>
   </header>
-
   <!-- Tags -->
-  <ul class="filter" id="makers">
-    <li class="active">
-      <a href="#" class="all">All
-        <span class="number">({{site.products | size}})</span>
-      </a>
-    </li>
-    {% for tag in site.data.tags %}
-    <li>
-      <a href="#" class="{{tag.tag}}">{{tag.name}}</a>
-    </li>
-    {% endfor %}
-  </ul>
 
+  {% include tags.html %}
   <div class="post-content holder">
 
     {%- assign products = site.products | sort: 'date' | reverse %} {%- for product in products %}

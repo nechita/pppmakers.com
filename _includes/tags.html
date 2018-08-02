@@ -1,0 +1,39 @@
+{% comment %}map, flatten and sort{% endcomment %}
+{% assign tags =  site.products | map: 'tags' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+<ul class="filter" id="makers">
+    <li class="active">
+      <a href="#" class="all">All
+        <span class="number">({{site.products | size}})</span>
+      </a>
+    </li>
+{% for currentTag in tags %}
+
+  {% comment %}first loop : initializing previousTag{% endcomment %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+  <li>
+    <a href="#" class="{{previousTag | downcase}}">{{ previousTag | capitalize}} ({{ counter }})</a>
+  </li>
+    {% assign counter = 1 %}
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+  <li>
+    <a href="#" class="{{currentTag | downcase}}">{{ currentTag | capitalize}} ({{ counter }})</a>
+  </li>
+  {% endif %}
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+</ul>
+
+
+
