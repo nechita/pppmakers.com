@@ -240,6 +240,30 @@ body {
   flex-shrink: 0;
 }
 
+.description {
+  .post-head-wrap {
+    h3 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      p {
+        font-size: 1.5rem;
+      }
+      margin-right: 20px;
+      &:last-child {
+        @media screen and (max-width: 720px) {
+          margin-right: 20px;
+        }
+        margin-right: 0;
+      }
+    }
+  }
+}
+
 .post-head-wrap {
   max-width: 104rem;
   width: 100%;
@@ -932,5 +956,35 @@ RESPONSIVE
   }
   .footer span.coffee {
     margin-top: 2.4rem;
+  }
+}
+
+.responsive-iframe {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.responsive-iframe::before {
+  padding-top: 56.25%;
+}
+.responsive-iframe::before {
+  display: block;
+  content: "";
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  &.graph {
+    min-height: 420px;
   }
 }
