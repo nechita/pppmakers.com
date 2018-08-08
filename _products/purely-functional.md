@@ -1,5 +1,5 @@
 ---
-date: July 02, 2018
+date: August 02, 2018
 title: Purely Functional
 author: Eric Normand
 link: https://purelyfunctional.tv/

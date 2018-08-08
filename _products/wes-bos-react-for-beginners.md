@@ -1,5 +1,5 @@
 ---
-date: July 02, 2018
+date: August 02, 2018
 title: React For Beginners
 author: Wes Bos
 link: https://reactforbeginners.com

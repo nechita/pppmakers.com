@@ -1,5 +1,5 @@
 ---
-date: July 02, 2018
+date: August 02, 2018
 title: ES6
 author: Wes Bos
 link: https://es6.io

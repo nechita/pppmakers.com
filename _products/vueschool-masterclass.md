@@ -1,5 +1,5 @@
 ---
-date: July 02, 2018
+date: August 02, 2018
 title: VueSchool Masterclass
 author: VueSchool.io
 link: https://vueschool.io/the-vuejs-master-class
