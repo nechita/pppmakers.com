@@ -1,5 +1,5 @@
 ---
-date: August 29, 2018
+date: August 28, 2018
 title: Data Analysis with Google Sheets
 author: Ben Collins
 link: https://courses.benlcollins.com/p/data-analysis-with-google-sheets

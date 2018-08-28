@@ -1,5 +1,5 @@
 ---
-date: August 29, 2018
+date: August 28, 2018
 title: Build Dashboards With Google Sheets and Data Studio
 author: Ben Collins
 link: https://courses.benlcollins.com/p/dashboards

@@ -1,5 +1,5 @@
 ---
-date: August 28, 2018
+date: August 27, 2018
 title: Frontend Masters
 author: Frontend Masters
 link: https://frontendmasters.com/

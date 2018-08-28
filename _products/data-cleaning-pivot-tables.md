@@ -1,5 +1,5 @@
 ---
-date: August 29, 2018
+date: August 28, 2018
 title: Data Cleaning and Pivot Tables in Google Sheets
 author: Ben Collins
 link: https://courses.benlcollins.com/p/data-cleaning-pivot-tables
