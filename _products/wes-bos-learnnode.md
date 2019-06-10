@@ -8,11 +8,4 @@ image: "learn-node.png"
 tags:
 - courses
 - javascript
-- node
-
-# ================================
-# ARTICLE TAGS AVAILABLE
-# ================================
-# - courses
-# ================================
 ---

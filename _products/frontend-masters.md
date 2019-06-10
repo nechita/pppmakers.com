@@ -7,23 +7,5 @@ description: Frontend Masters has one of the best catalog of online courses abou
 image: "frontend-masters.png"
 tags:
 - courses
-- react
-- node
-- vue
-- angular
 - javascript
-
-# ================================
-# ARTICLE TAGS AVAILABLE
-# ================================
-# - animation
-# - code
-# - contribution
-# - design-tokens
-# - figma
-# - leadership
-# - patterns
-# - process
-# - sketch
-# ================================
 ---

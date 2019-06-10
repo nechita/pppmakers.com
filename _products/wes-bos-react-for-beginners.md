@@ -8,19 +8,4 @@ image: "react-for-beginners.png"
 tags:
 - courses
 - javascript
-- react
-
-# ================================
-# ARTICLE TAGS AVAILABLE
-# ================================
-# - animation
-# - code
-# - contribution
-# - design-tokens
-# - figma
-# - leadership
-# - patterns
-# - process
-# - sketch
-# ================================
 ---

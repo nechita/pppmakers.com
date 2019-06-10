@@ -7,20 +7,5 @@ description: Chris Buecheler teaches developers how to create a fully-functionin
 image: "five-minute-react.png"
 tags:
 - courses
-- react
 - javascript
-
-# ================================
-# ARTICLE TAGS AVAILABLE
-# ================================
-# - animation
-# - code
-# - contribution
-# - design-tokens
-# - figma
-# - leadership
-# - patterns
-# - process
-# - sketch
-# ================================
 ---

@@ -8,19 +8,4 @@ image: "vueschool-masterclass.png"
 tags:
 - courses
 - javascript
-- vue
-
-# ================================
-# ARTICLE TAGS AVAILABLE
-# ================================
-# - animation
-# - code
-# - contribution
-# - design-tokens
-# - figma
-# - leadership
-# - patterns
-# - process
-# - sketch
-# ================================
 ---
